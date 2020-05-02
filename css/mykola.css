@@ -208,3 +208,66 @@
         font-size: 16px;
         font-weight: 400;
         border: 1px solid #267df4; }
+
+.subscribe {
+  text-align: center;
+  min-height: 350px;
+  padding-top: 89px; }
+  .subscribe .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .subscribe .wrapper .title {
+      height: 33px;
+      color: #26292c;
+      font-family: "Varela Round";
+      font-size: 42px;
+      font-weight: 400;
+      line-height: 52px; }
+      @media screen and (max-width: 425px) {
+        .subscribe .wrapper .title {
+          position: relative;
+          margin-top: 5px;
+          font-size: 28px; } }
+    .subscribe .wrapper .form {
+      position: relative;
+      margin-top: 50px;
+      margin-bottom: 28px;
+      padding: 0; }
+      .subscribe .wrapper .form .form__input {
+        width: 100%;
+        height: 50px;
+        border-radius: 25px;
+        border: 1px solid rgba(38, 41, 44, 0.2);
+        padding-left: 26px;
+        color: #26292c;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 400;
+        opacity: 0.7; }
+      .subscribe .wrapper .form .form__submit {
+        position: absolute;
+        top: 4px;
+        right: 4px;
+        width: 134px;
+        height: 42px;
+        border-radius: 21px;
+        background-color: #6fc754;
+        color: #ffffff;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 400;
+        border: none; }
+        @media screen and (max-width: 425px) {
+          .subscribe .wrapper .form .form__submit {
+            position: relative;
+            margin-top: 5px; } }
+    .subscribe .wrapper .promise {
+      height: 14px;
+      color: #8c8f94;
+      font-family: Lato;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-bottom: 86px; }
